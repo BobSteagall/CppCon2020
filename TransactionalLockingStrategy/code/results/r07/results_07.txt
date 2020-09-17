@@ -1,0 +1,93 @@
+testing with
+  lockable items: 10000000
+  transactions  : 100000
+  refs per tx   : 20
+  test mode     : 0
+  thread count  : single-threaded
+ 
+ threads   elapsed msec   conflicts     races
+ =============================================
+     0           640            0            0
+
+
+testing with
+  lockable items: 10000000
+  transactions  : 100000
+  refs per tx   : 20
+  test mode     : 2
+  thread count  : 1..16 threads
+ 
+ threads   elapsed msec   conflicts     races
+ =============================================
+     1           644            0            0
+     2          1747            0            0
+     3          3184            0            0
+     4          4281            0            0
+     5          5404            0            0
+     6          6344            0            0
+     7          7511            0            0
+     8          8726            0            0
+     9          9632            0            0
+    10         11031            0            0
+    11         12079            0            0
+    12         13509            0            0
+    13         14111            0            0
+    14         14081            0            0
+    15         12196            0            0
+    16         12765            0            0
+
+
+testing with
+  lockable items: 10000000
+  transactions  : 100000
+  refs per tx   : 20
+  test mode     : 1
+  thread count  : 1..16 threads
+ 
+ threads   elapsed msec   conflicts     races
+ =============================================
+     1           681            0            0
+     2           688            0            0
+     3           704            0            0
+     4           724            1            0
+     5           718            1            0
+     6           747            0            0
+     7           747            0            0
+     8           777            0            0
+     9           821            1            0
+    10           859            4            0
+    11           911            4            0
+    12           976            4            0
+    13          1041            7            0
+    14          1080            6            0
+    15          1129            4            0
+    16          1187            6            0
+
+
+testing with
+  lockable items: 10000000
+  transactions  : 100000
+  refs per tx   : 20
+  test mode     : 3
+  thread count  : 1..16 threads
+ 
+ threads   elapsed msec   conflicts     races
+ =============================================
+     1           645            0            0
+     2           653            0            0
+     3           659            0            0
+     4           672            0            0
+     5           681            0            1
+     6           701            0            0
+     7           719            0            3
+     8           739            0            4
+     9           780            0            7
+    10           815            0           10
+    11           900            0            4
+    12           908            0           18
+    13           970            0            8
+    14          1031            0           17
+    15          1081            0           19
+    16          1132            0           17
+
+

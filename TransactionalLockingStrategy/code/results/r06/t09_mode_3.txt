@@ -1,0 +1,82 @@
+testing with
+  lockable items: 1000000
+  threads       : 9
+  transactions  : 100000
+  refs per tx   : 20
+
+record init required 17 msec
+
+RACE FOUND!, TX 0  item 944205
+RACE FOUND!, TX 0  item 79787
+RACE FOUND!, TX 0  item 149941
+RACE FOUND!, TX 0  item 680020
+RACE FOUND!, TX 0  item 95487
+RACE FOUND!, TX 0  item 31472
+RACE FOUND!, TX 0  item 249285
+RACE FOUND!, TX 0  item 565368
+RACE FOUND!, TX 0  item 565368
+RACE FOUND!, TX 0  item 364108
+RACE FOUND!, TX 0  item 376817
+RACE FOUND!, TX 0  item 56994
+RACE FOUND!, TX 0  item 78487
+RACE FOUND!, TX 0  item 649089
+RACE FOUND!, TX 0  item 16695
+RACE FOUND!, TX 0  item 696114
+RACE FOUND!, TX 0  item 269787
+RACE FOUND!, TX 0  item 579141
+RACE FOUND!, TX 0  item 250677
+RACE FOUND!, TX 0  item 624745
+RACE FOUND!, TX 0  item 413743
+RACE FOUND!, TX 0  item 79649
+RACE FOUND!, TX 0  item 451843
+RACE FOUND!, TX 0  item 338542
+RACE FOUND!, TX 0  item 290696
+RACE FOUND!, TX 0  item 481703
+RACE FOUND!, TX 0  item 319827
+RACE FOUND!, TX 0  item 557528
+RACE FOUND!, TX 0  item 728854
+RACE FOUND!, TX 0  item 996446
+RACE FOUND!, TX 0  item 123606
+RACE FOUND!, TX 0  item 123606
+RACE FOUND!, TX 0  item 293143
+RACE FOUND!, TX 0  item 14177
+RACE FOUND!, TX 0  item 56195
+RACE FOUND!, TX 0  item 537038
+RACE FOUND!, TX 0  item 427050
+RACE FOUND!, TX 0  item 784181
+RACE FOUND!, TX 0  item 87211
+RACE FOUND!, TX 0  item 77790
+RACE FOUND!, TX 0  item 388974
+RACE FOUND!, TX 0  item 297988
+RACE FOUND!, TX 0  item 455423
+RACE FOUND!, TX 0  item 973452
+RACE FOUND!, TX 0  item 579551
+RACE FOUND!, TX 0  item 352481
+RACE FOUND!, TX 0  item 352481
+RACE FOUND!, TX 0  item 448393
+RACE FOUND!, TX 0  item 380778
+RACE FOUND!, TX 0  item 727749
+RACE FOUND!, TX 0  item 602555
+RACE FOUND!, TX 0  item 919102
+RACE FOUND!, TX 0  item 919102
+RACE FOUND!, TX 0  item 152817
+RACE FOUND!, TX 0  item 152817
+RACE FOUND!, TX 0  item 499034
+RACE FOUND!, TX 0  item 893171
+RACE FOUND!, TX 0  item 893171
+RACE FOUND!, TX 0  item 367545
+RACE FOUND!, TX 0  item 134426
+TX 0 took 762 msec
+TX 0 took 765 msec
+TX 0 took 773 msec
+TX 0 took 776 msec
+RACE FOUND!, TX 0  item 937738
+TX 0 took 789 msec
+TX 0 took 791 msec
+RACE FOUND!, TX 0  item 386402
+TX 0 took 812 msec
+TX 0 took 822 msec
+TX 0 took 839 msec
+
+transactions required 839 msec
+clean-up required 0 msec

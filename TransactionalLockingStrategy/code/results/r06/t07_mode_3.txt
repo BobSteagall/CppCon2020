@@ -1,0 +1,57 @@
+testing with
+  lockable items: 1000000
+  threads       : 7
+  transactions  : 100000
+  refs per tx   : 20
+
+record init required 17 msec
+
+RACE FOUND!, TX 0  item 332574
+RACE FOUND!, TX 0  item 800256
+RACE FOUND!, TX 0  item 885257
+RACE FOUND!, TX 0  item 721685
+RACE FOUND!, TX 0  item 454772
+RACE FOUND!, TX 0  item 828617
+RACE FOUND!, TX 0  item 279136
+RACE FOUND!, TX 0  item 723670
+RACE FOUND!, TX 0  item 19455
+RACE FOUND!, TX 0  item 719742
+RACE FOUND!, TX 0  item 815537
+RACE FOUND!, TX 0  item 443529
+RACE FOUND!, TX 0  item 49587
+RACE FOUND!, TX 0  item 49587
+RACE FOUND!, TX 0  item 699486
+RACE FOUND!, TX 0  item 699486
+RACE FOUND!, TX 0  item 727357
+RACE FOUND!, TX 0  item 79463
+RACE FOUND!, TX 0  item 487469
+RACE FOUND!, TX 0  item 501548
+RACE FOUND!, TX 0  item 501548
+RACE FOUND!, TX 0  item 763476
+RACE FOUND!, TX 0  item 210011
+RACE FOUND!, TX 0  item 867064
+RACE FOUND!, TX 0  item 946053
+RACE FOUND!, TX 0  item 722382
+RACE FOUND!, TX 0  item 107935
+RACE FOUND!, TX 0  item 363085
+RACE FOUND!, TX 0  item 34183
+RACE FOUND!, TX 0  item 524189
+RACE FOUND!, TX 0  item 353103
+RACE FOUND!, TX 0  item 379081
+RACE FOUND!, TX 0  item 473261
+RACE FOUND!, TX 0  item 307743
+RACE FOUND!, TX 0  item 654508
+RACE FOUND!, TX 0  item 880252
+RACE FOUND!, TX 0  item 963817
+RACE FOUND!, TX 0  item 816040
+RACE FOUND!, TX 0  item 80022
+TX 0 took 684 msec
+TX 0 took 685 msec
+TX 0 took 687 msec
+TX 0 took 689 msec
+TX 0 took 690 msec
+TX 0 took 711 msec
+TX 0 took 719 msec
+
+transactions required 719 msec
+clean-up required 0 msec

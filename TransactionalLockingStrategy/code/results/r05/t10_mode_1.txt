@@ -1,0 +1,493 @@
+testing with
+  lockable items: 100000
+  threads       : 10
+  transactions  : 100000
+  refs per tx   : 20
+
+record init required 1 msec
+
+newer TSV 793 when acquiring ITEM 31644 in TX 5 TSV 791
+CONFLICT rolling back 4 items in TX 5 TSV 791
+newer TSV 817 when acquiring ITEM 13070 in TX 9 TSV 796
+CONFLICT rolling back 9 items in TX 9 TSV 796
+newer TSV 4225 when acquiring ITEM 14380 in TX 7 TSV 4224
+CONFLICT rolling back 9 items in TX 7 TSV 4224
+newer TSV 5334 when acquiring ITEM 27108 in TX 2 TSV 5070
+CONFLICT rolling back 16 items in TX 2 TSV 5070
+newer TSV 9422 when acquiring ITEM 44225 in TX 3 TSV 9397
+CONFLICT rolling back 16 items in TX 3 TSV 9397
+newer TSV 12289 when acquiring ITEM 85347 in TX 7 TSV 12282
+CONFLICT rolling back 10 items in TX 7 TSV 12282
+newer TSV 14912 when acquiring ITEM 44608 in TX 1 TSV 14497
+CONFLICT rolling back 13 items in TX 1 TSV 14497
+newer TSV 14647 when acquiring ITEM 45206 in TX 5 TSV 14040
+CONFLICT rolling back 4 items in TX 5 TSV 14040
+newer TSV 15239 when acquiring ITEM 55896 in TX 3 TSV 14960
+CONFLICT rolling back 11 items in TX 3 TSV 14960
+newer TSV 16325 when acquiring ITEM 7904 in TX 1 TSV 16128
+CONFLICT rolling back 7 items in TX 1 TSV 16128
+newer TSV 19924 when acquiring ITEM 20385 in TX 9 TSV 19923
+CONFLICT rolling back 10 items in TX 9 TSV 19923
+newer TSV 20550 when acquiring ITEM 49491 in TX 1 TSV 20487
+CONFLICT rolling back 14 items in TX 1 TSV 20487
+newer TSV 28073 when acquiring ITEM 60456 in TX 7 TSV 28047
+CONFLICT rolling back 3 items in TX 7 TSV 28047
+newer TSV 28546 when acquiring ITEM 10837 in TX 10 TSV 28514
+CONFLICT rolling back 15 items in TX 10 TSV 28514
+newer TSV 29884 when acquiring ITEM 16623 in TX 2 TSV 29871
+CONFLICT rolling back 8 items in TX 2 TSV 29871
+newer TSV 30063 when acquiring ITEM 9578 in TX 9 TSV 30017
+CONFLICT rolling back 8 items in TX 9 TSV 30017
+newer TSV 31681 when acquiring ITEM 38836 in TX 3 TSV 31680
+CONFLICT rolling back 13 items in TX 3 TSV 31680
+newer TSV 35580 when acquiring ITEM 36282 in TX 1 TSV 35569
+CONFLICT rolling back 14 items in TX 1 TSV 35569
+newer TSV 38389 when acquiring ITEM 14671 in TX 1 TSV 38278
+CONFLICT rolling back 7 items in TX 1 TSV 38278
+newer TSV 42169 when acquiring ITEM 249 in TX 2 TSV 42153
+CONFLICT rolling back 4 items in TX 2 TSV 42153
+newer TSV 44893 when acquiring ITEM 73762 in TX 5 TSV 44892
+CONFLICT rolling back 17 items in TX 5 TSV 44892
+newer TSV 47102 when acquiring ITEM 43217 in TX 7 TSV 47085
+CONFLICT rolling back 10 items in TX 7 TSV 47085
+newer TSV 50833 when acquiring ITEM 10377 in TX 6 TSV 50819
+CONFLICT rolling back 16 items in TX 6 TSV 50819
+newer TSV 53741 when acquiring ITEM 71433 in TX 1 TSV 53740
+CONFLICT rolling back 11 items in TX 1 TSV 53740
+newer TSV 54519 when acquiring ITEM 67069 in TX 4 TSV 54517
+CONFLICT rolling back 12 items in TX 4 TSV 54517
+newer TSV 55858 when acquiring ITEM 72648 in TX 5 TSV 55857
+CONFLICT rolling back 13 items in TX 5 TSV 55857
+newer TSV 55882 when acquiring ITEM 77455 in TX 6 TSV 55827
+CONFLICT rolling back 13 items in TX 6 TSV 55827
+newer TSV 58093 when acquiring ITEM 65844 in TX 9 TSV 58055
+CONFLICT rolling back 5 items in TX 9 TSV 58055
+newer TSV 69273 when acquiring ITEM 67516 in TX 2 TSV 69257
+CONFLICT rolling back 12 items in TX 2 TSV 69257
+newer TSV 76562 when acquiring ITEM 78801 in TX 1 TSV 76547
+CONFLICT rolling back 5 items in TX 1 TSV 76547
+newer TSV 77895 when acquiring ITEM 16317 in TX 4 TSV 77892
+CONFLICT rolling back 10 items in TX 4 TSV 77892
+newer TSV 82561 when acquiring ITEM 72950 in TX 3 TSV 82540
+CONFLICT rolling back 14 items in TX 3 TSV 82540
+newer TSV 82952 when acquiring ITEM 22196 in TX 3 TSV 82945
+CONFLICT rolling back 13 items in TX 3 TSV 82945
+newer TSV 93326 when acquiring ITEM 20352 in TX 3 TSV 93325
+CONFLICT rolling back 16 items in TX 3 TSV 93325
+newer TSV 102731 when acquiring ITEM 62257 in TX 6 TSV 102720
+CONFLICT rolling back 15 items in TX 6 TSV 102720
+newer TSV 104685 when acquiring ITEM 60089 in TX 1 TSV 104684
+CONFLICT rolling back 16 items in TX 1 TSV 104684
+newer TSV 104932 when acquiring ITEM 16633 in TX 1 TSV 104915
+CONFLICT rolling back 7 items in TX 1 TSV 104915
+newer TSV 106247 when acquiring ITEM 244 in TX 9 TSV 106246
+CONFLICT rolling back 8 items in TX 9 TSV 106246
+newer TSV 108112 when acquiring ITEM 82545 in TX 8 TSV 108077
+CONFLICT rolling back 18 items in TX 8 TSV 108077
+newer TSV 112931 when acquiring ITEM 33114 in TX 8 TSV 112895
+CONFLICT rolling back 12 items in TX 8 TSV 112895
+newer TSV 114726 when acquiring ITEM 26472 in TX 2 TSV 114712
+CONFLICT rolling back 5 items in TX 2 TSV 114712
+newer TSV 119214 when acquiring ITEM 13331 in TX 5 TSV 119213
+CONFLICT rolling back 10 items in TX 5 TSV 119213
+newer TSV 119636 when acquiring ITEM 69395 in TX 4 TSV 119614
+CONFLICT rolling back 5 items in TX 4 TSV 119614
+newer TSV 124848 when acquiring ITEM 53203 in TX 2 TSV 124847
+CONFLICT rolling back 14 items in TX 2 TSV 124847
+newer TSV 127799 when acquiring ITEM 12379 in TX 9 TSV 127798
+CONFLICT rolling back 9 items in TX 9 TSV 127798
+newer TSV 131745 when acquiring ITEM 15817 in TX 1 TSV 131744
+CONFLICT rolling back 14 items in TX 1 TSV 131744
+newer TSV 137316 when acquiring ITEM 26986 in TX 8 TSV 137315
+CONFLICT rolling back 12 items in TX 8 TSV 137315
+newer TSV 138492 when acquiring ITEM 25082 in TX 10 TSV 138462
+CONFLICT rolling back 12 items in TX 10 TSV 138462
+newer TSV 142132 when acquiring ITEM 27246 in TX 9 TSV 142131
+CONFLICT rolling back 14 items in TX 9 TSV 142131
+newer TSV 142629 when acquiring ITEM 77002 in TX 6 TSV 142607
+CONFLICT rolling back 16 items in TX 6 TSV 142607
+newer TSV 143547 when acquiring ITEM 41952 in TX 1 TSV 143533
+CONFLICT rolling back 16 items in TX 1 TSV 143533
+newer TSV 144743 when acquiring ITEM 1948 in TX 1 TSV 144742
+CONFLICT rolling back 11 items in TX 1 TSV 144742
+newer TSV 145704 when acquiring ITEM 77555 in TX 6 TSV 145701
+CONFLICT rolling back 13 items in TX 6 TSV 145701
+newer TSV 150508 when acquiring ITEM 62648 in TX 10 TSV 150507
+CONFLICT rolling back 17 items in TX 10 TSV 150507
+newer TSV 153108 when acquiring ITEM 17216 in TX 7 TSV 153087
+CONFLICT rolling back 9 items in TX 7 TSV 153087
+newer TSV 154486 when acquiring ITEM 81250 in TX 3 TSV 154475
+CONFLICT rolling back 7 items in TX 3 TSV 154475
+newer TSV 158559 when acquiring ITEM 93483 in TX 5 TSV 158558
+CONFLICT rolling back 11 items in TX 5 TSV 158558
+newer TSV 165994 when acquiring ITEM 33096 in TX 10 TSV 165980
+CONFLICT rolling back 9 items in TX 10 TSV 165980
+newer TSV 169505 when acquiring ITEM 6366 in TX 1 TSV 169486
+CONFLICT rolling back 13 items in TX 1 TSV 169486
+newer TSV 174089 when acquiring ITEM 13209 in TX 10 TSV 174088
+CONFLICT rolling back 9 items in TX 10 TSV 174088
+newer TSV 177404 when acquiring ITEM 25979 in TX 7 TSV 177403
+CONFLICT rolling back 16 items in TX 7 TSV 177403
+newer TSV 185523 when acquiring ITEM 26599 in TX 4 TSV 185522
+CONFLICT rolling back 14 items in TX 4 TSV 185522
+newer TSV 195669 when acquiring ITEM 42124 in TX 3 TSV 195660
+CONFLICT rolling back 18 items in TX 3 TSV 195660
+newer TSV 195775 when acquiring ITEM 6433 in TX 5 TSV 195739
+CONFLICT rolling back 3 items in TX 5 TSV 195739
+newer TSV 198773 when acquiring ITEM 45087 in TX 4 TSV 198772
+CONFLICT rolling back 10 items in TX 4 TSV 198772
+newer TSV 199829 when acquiring ITEM 72173 in TX 8 TSV 199809
+CONFLICT rolling back 17 items in TX 8 TSV 199809
+newer TSV 202195 when acquiring ITEM 17686 in TX 9 TSV 202186
+CONFLICT rolling back 8 items in TX 9 TSV 202186
+newer TSV 211314 when acquiring ITEM 59150 in TX 2 TSV 211313
+CONFLICT rolling back 8 items in TX 2 TSV 211313
+newer TSV 218059 when acquiring ITEM 32424 in TX 2 TSV 218054
+CONFLICT rolling back 12 items in TX 2 TSV 218054
+newer TSV 218158 when acquiring ITEM 24730 in TX 6 TSV 218136
+CONFLICT rolling back 15 items in TX 6 TSV 218136
+newer TSV 222725 when acquiring ITEM 18576 in TX 10 TSV 222724
+CONFLICT rolling back 17 items in TX 10 TSV 222724
+newer TSV 229789 when acquiring ITEM 5727 in TX 3 TSV 229776
+CONFLICT rolling back 7 items in TX 3 TSV 229776
+newer TSV 229868 when acquiring ITEM 92864 in TX 6 TSV 229867
+CONFLICT rolling back 12 items in TX 6 TSV 229867
+newer TSV 246376 when acquiring ITEM 64009 in TX 9 TSV 246335
+CONFLICT rolling back 12 items in TX 9 TSV 246335
+newer TSV 247206 when acquiring ITEM 12015 in TX 6 TSV 247205
+CONFLICT rolling back 15 items in TX 6 TSV 247205
+newer TSV 258131 when acquiring ITEM 33475 in TX 8 TSV 258109
+CONFLICT rolling back 7 items in TX 8 TSV 258109
+newer TSV 262861 when acquiring ITEM 90628 in TX 9 TSV 262860
+CONFLICT rolling back 6 items in TX 9 TSV 262860
+newer TSV 270536 when acquiring ITEM 8173 in TX 7 TSV 270531
+CONFLICT rolling back 11 items in TX 7 TSV 270531
+newer TSV 286041 when acquiring ITEM 68939 in TX 2 TSV 286040
+CONFLICT rolling back 7 items in TX 2 TSV 286040
+newer TSV 286062 when acquiring ITEM 12488 in TX 8 TSV 286061
+CONFLICT rolling back 16 items in TX 8 TSV 286061
+newer TSV 286822 when acquiring ITEM 2082 in TX 9 TSV 286799
+CONFLICT rolling back 7 items in TX 9 TSV 286799
+newer TSV 290990 when acquiring ITEM 17634 in TX 5 TSV 290889
+CONFLICT rolling back 11 items in TX 5 TSV 290889
+newer TSV 293864 when acquiring ITEM 91947 in TX 5 TSV 293862
+CONFLICT rolling back 7 items in TX 5 TSV 293862
+newer TSV 309748 when acquiring ITEM 48991 in TX 3 TSV 309732
+CONFLICT rolling back 17 items in TX 3 TSV 309732
+newer TSV 320429 when acquiring ITEM 44877 in TX 7 TSV 320428
+CONFLICT rolling back 19 items in TX 7 TSV 320428
+newer TSV 320978 when acquiring ITEM 85339 in TX 2 TSV 320948
+CONFLICT rolling back 16 items in TX 2 TSV 320948
+newer TSV 336958 when acquiring ITEM 89748 in TX 6 TSV 336911
+CONFLICT rolling back 13 items in TX 6 TSV 336911
+newer TSV 340256 when acquiring ITEM 12689 in TX 1 TSV 340190
+CONFLICT rolling back 10 items in TX 1 TSV 340190
+newer TSV 342819 when acquiring ITEM 63386 in TX 3 TSV 342817
+CONFLICT rolling back 9 items in TX 3 TSV 342817
+newer TSV 346671 when acquiring ITEM 52961 in TX 8 TSV 346669
+CONFLICT rolling back 10 items in TX 8 TSV 346669
+newer TSV 351416 when acquiring ITEM 77004 in TX 7 TSV 351412
+CONFLICT rolling back 18 items in TX 7 TSV 351412
+newer TSV 362539 when acquiring ITEM 60111 in TX 1 TSV 362514
+CONFLICT rolling back 10 items in TX 1 TSV 362514
+newer TSV 375450 when acquiring ITEM 79624 in TX 5 TSV 375449
+CONFLICT rolling back 10 items in TX 5 TSV 375449
+newer TSV 381349 when acquiring ITEM 69420 in TX 4 TSV 381340
+CONFLICT rolling back 18 items in TX 4 TSV 381340
+newer TSV 381699 when acquiring ITEM 69486 in TX 2 TSV 381698
+CONFLICT rolling back 1 items in TX 2 TSV 381698
+newer TSV 382537 when acquiring ITEM 87934 in TX 8 TSV 382536
+CONFLICT rolling back 10 items in TX 8 TSV 382536
+newer TSV 384267 when acquiring ITEM 27411 in TX 9 TSV 384258
+CONFLICT rolling back 2 items in TX 9 TSV 384258
+newer TSV 385049 when acquiring ITEM 44563 in TX 7 TSV 385041
+CONFLICT rolling back 8 items in TX 7 TSV 385041
+newer TSV 387597 when acquiring ITEM 17371 in TX 5 TSV 387577
+CONFLICT rolling back 15 items in TX 5 TSV 387577
+newer TSV 388904 when acquiring ITEM 98813 in TX 1 TSV 388897
+CONFLICT rolling back 7 items in TX 1 TSV 388897
+newer TSV 389058 when acquiring ITEM 34428 in TX 5 TSV 389053
+CONFLICT rolling back 8 items in TX 5 TSV 389053
+newer TSV 397957 when acquiring ITEM 42423 in TX 1 TSV 397935
+CONFLICT rolling back 4 items in TX 1 TSV 397935
+newer TSV 399944 when acquiring ITEM 73243 in TX 1 TSV 399938
+CONFLICT rolling back 17 items in TX 1 TSV 399938
+newer TSV 403023 when acquiring ITEM 36060 in TX 9 TSV 403022
+CONFLICT rolling back 13 items in TX 9 TSV 403022
+newer TSV 413848 when acquiring ITEM 41164 in TX 9 TSV 413846
+CONFLICT rolling back 17 items in TX 9 TSV 413846
+newer TSV 417579 when acquiring ITEM 59551 in TX 8 TSV 417578
+CONFLICT rolling back 13 items in TX 8 TSV 417578
+newer TSV 418407 when acquiring ITEM 60616 in TX 9 TSV 418406
+CONFLICT rolling back 4 items in TX 9 TSV 418406
+newer TSV 423976 when acquiring ITEM 41988 in TX 2 TSV 423975
+CONFLICT rolling back 13 items in TX 2 TSV 423975
+newer TSV 432859 when acquiring ITEM 22815 in TX 10 TSV 432857
+CONFLICT rolling back 3 items in TX 10 TSV 432857
+newer TSV 443025 when acquiring ITEM 99963 in TX 7 TSV 442995
+CONFLICT rolling back 14 items in TX 7 TSV 442995
+newer TSV 443016 when acquiring ITEM 91122 in TX 10 TSV 442981
+CONFLICT rolling back 15 items in TX 10 TSV 442981
+newer TSV 447867 when acquiring ITEM 33034 in TX 1 TSV 447849
+CONFLICT rolling back 6 items in TX 1 TSV 447849
+newer TSV 448571 when acquiring ITEM 67106 in TX 9 TSV 448554
+CONFLICT rolling back 16 items in TX 9 TSV 448554
+newer TSV 448915 when acquiring ITEM 79489 in TX 5 TSV 448902
+CONFLICT rolling back 8 items in TX 5 TSV 448902
+newer TSV 449040 when acquiring ITEM 31239 in TX 2 TSV 449033
+CONFLICT rolling back 8 items in TX 2 TSV 449033
+newer TSV 453863 when acquiring ITEM 93221 in TX 6 TSV 453854
+CONFLICT rolling back 16 items in TX 6 TSV 453854
+newer TSV 454499 when acquiring ITEM 52545 in TX 10 TSV 454496
+CONFLICT rolling back 15 items in TX 10 TSV 454496
+newer TSV 458428 when acquiring ITEM 41697 in TX 10 TSV 458427
+CONFLICT rolling back 18 items in TX 10 TSV 458427
+newer TSV 460505 when acquiring ITEM 61834 in TX 8 TSV 460500
+CONFLICT rolling back 15 items in TX 8 TSV 460500
+newer TSV 470892 when acquiring ITEM 50534 in TX 9 TSV 470888
+CONFLICT rolling back 16 items in TX 9 TSV 470888
+newer TSV 470975 when acquiring ITEM 19003 in TX 9 TSV 470967
+CONFLICT rolling back 9 items in TX 9 TSV 470967
+newer TSV 473215 when acquiring ITEM 98724 in TX 3 TSV 473182
+CONFLICT rolling back 4 items in TX 3 TSV 473182
+newer TSV 476222 when acquiring ITEM 81379 in TX 3 TSV 476221
+CONFLICT rolling back 12 items in TX 3 TSV 476221
+newer TSV 477929 when acquiring ITEM 69954 in TX 1 TSV 477920
+CONFLICT rolling back 7 items in TX 1 TSV 477920
+newer TSV 490502 when acquiring ITEM 51198 in TX 9 TSV 490501
+CONFLICT rolling back 14 items in TX 9 TSV 490501
+newer TSV 502268 when acquiring ITEM 83167 in TX 8 TSV 502242
+CONFLICT rolling back 5 items in TX 8 TSV 502242
+newer TSV 503453 when acquiring ITEM 99485 in TX 1 TSV 503452
+CONFLICT rolling back 13 items in TX 1 TSV 503452
+newer TSV 509842 when acquiring ITEM 6323 in TX 10 TSV 509814
+CONFLICT rolling back 8 items in TX 10 TSV 509814
+newer TSV 510495 when acquiring ITEM 84780 in TX 6 TSV 510494
+CONFLICT rolling back 10 items in TX 6 TSV 510494
+newer TSV 511907 when acquiring ITEM 83015 in TX 5 TSV 511887
+CONFLICT rolling back 10 items in TX 5 TSV 511887
+newer TSV 514623 when acquiring ITEM 377 in TX 8 TSV 514604
+CONFLICT rolling back 12 items in TX 8 TSV 514604
+newer TSV 518276 when acquiring ITEM 158 in TX 8 TSV 518249
+CONFLICT rolling back 15 items in TX 8 TSV 518249
+newer TSV 521194 when acquiring ITEM 47074 in TX 7 TSV 521177
+CONFLICT rolling back 11 items in TX 7 TSV 521177
+newer TSV 523179 when acquiring ITEM 67028 in TX 9 TSV 523176
+CONFLICT rolling back 4 items in TX 9 TSV 523176
+newer TSV 523868 when acquiring ITEM 39588 in TX 7 TSV 523860
+CONFLICT rolling back 10 items in TX 7 TSV 523860
+newer TSV 524206 when acquiring ITEM 3058 in TX 1 TSV 524201
+CONFLICT rolling back 11 items in TX 1 TSV 524201
+newer TSV 532413 when acquiring ITEM 60450 in TX 2 TSV 532412
+CONFLICT rolling back 3 items in TX 2 TSV 532412
+newer TSV 532677 when acquiring ITEM 90134 in TX 10 TSV 532655
+CONFLICT rolling back 15 items in TX 10 TSV 532655
+newer TSV 540409 when acquiring ITEM 76 in TX 3 TSV 540407
+CONFLICT rolling back 16 items in TX 3 TSV 540407
+newer TSV 543649 when acquiring ITEM 23386 in TX 1 TSV 543642
+CONFLICT rolling back 15 items in TX 1 TSV 543642
+newer TSV 545696 when acquiring ITEM 97911 in TX 6 TSV 545683
+CONFLICT rolling back 5 items in TX 6 TSV 545683
+newer TSV 546679 when acquiring ITEM 8238 in TX 5 TSV 546678
+CONFLICT rolling back 7 items in TX 5 TSV 546678
+newer TSV 550909 when acquiring ITEM 15286 in TX 3 TSV 550883
+CONFLICT rolling back 6 items in TX 3 TSV 550883
+newer TSV 556279 when acquiring ITEM 6275 in TX 7 TSV 556267
+CONFLICT rolling back 14 items in TX 7 TSV 556267
+newer TSV 567237 when acquiring ITEM 25059 in TX 6 TSV 567225
+CONFLICT rolling back 9 items in TX 6 TSV 567225
+newer TSV 573212 when acquiring ITEM 72383 in TX 4 TSV 573211
+CONFLICT rolling back 9 items in TX 4 TSV 573211
+newer TSV 575134 when acquiring ITEM 46791 in TX 9 TSV 575097
+CONFLICT rolling back 4 items in TX 9 TSV 575097
+newer TSV 584309 when acquiring ITEM 88940 in TX 6 TSV 584300
+CONFLICT rolling back 3 items in TX 6 TSV 584300
+newer TSV 594066 when acquiring ITEM 97304 in TX 9 TSV 594065
+CONFLICT rolling back 10 items in TX 9 TSV 594065
+newer TSV 599854 when acquiring ITEM 61231 in TX 2 TSV 599853
+CONFLICT rolling back 16 items in TX 2 TSV 599853
+newer TSV 604813 when acquiring ITEM 42652 in TX 8 TSV 604812
+CONFLICT rolling back 3 items in TX 8 TSV 604812
+newer TSV 605258 when acquiring ITEM 35027 in TX 2 TSV 605253
+CONFLICT rolling back 11 items in TX 2 TSV 605253
+newer TSV 608088 when acquiring ITEM 90270 in TX 10 TSV 608083
+CONFLICT rolling back 17 items in TX 10 TSV 608083
+newer TSV 613515 when acquiring ITEM 76989 in TX 8 TSV 613514
+CONFLICT rolling back 18 items in TX 8 TSV 613514
+newer TSV 613647 when acquiring ITEM 81622 in TX 2 TSV 613646
+CONFLICT rolling back 9 items in TX 2 TSV 613646
+newer TSV 614797 when acquiring ITEM 22814 in TX 2 TSV 614794
+CONFLICT rolling back 8 items in TX 2 TSV 614794
+newer TSV 622645 when acquiring ITEM 19443 in TX 9 TSV 622625
+CONFLICT rolling back 8 items in TX 9 TSV 622625
+newer TSV 627235 when acquiring ITEM 8798 in TX 1 TSV 626780
+CONFLICT rolling back 5 items in TX 1 TSV 626780
+newer TSV 635685 when acquiring ITEM 41222 in TX 8 TSV 635661
+CONFLICT rolling back 4 items in TX 8 TSV 635661
+newer TSV 635892 when acquiring ITEM 31688 in TX 1 TSV 635876
+CONFLICT rolling back 9 items in TX 1 TSV 635876
+newer TSV 642287 when acquiring ITEM 922 in TX 2 TSV 642258
+CONFLICT rolling back 8 items in TX 2 TSV 642258
+newer TSV 649009 when acquiring ITEM 94814 in TX 2 TSV 648977
+CONFLICT rolling back 9 items in TX 2 TSV 648977
+newer TSV 652035 when acquiring ITEM 83323 in TX 3 TSV 652026
+CONFLICT rolling back 10 items in TX 3 TSV 652026
+newer TSV 654475 when acquiring ITEM 93923 in TX 6 TSV 654474
+CONFLICT rolling back 11 items in TX 6 TSV 654474
+newer TSV 655344 when acquiring ITEM 53007 in TX 10 TSV 655328
+CONFLICT rolling back 7 items in TX 10 TSV 655328
+newer TSV 663900 when acquiring ITEM 93302 in TX 9 TSV 663899
+CONFLICT rolling back 17 items in TX 9 TSV 663899
+newer TSV 664006 when acquiring ITEM 82224 in TX 9 TSV 663995
+CONFLICT rolling back 14 items in TX 9 TSV 663995
+newer TSV 672605 when acquiring ITEM 1298 in TX 7 TSV 672579
+CONFLICT rolling back 11 items in TX 7 TSV 672579
+newer TSV 686395 when acquiring ITEM 3903 in TX 4 TSV 686382
+CONFLICT rolling back 15 items in TX 4 TSV 686382
+newer TSV 690020 when acquiring ITEM 84165 in TX 8 TSV 690019
+CONFLICT rolling back 13 items in TX 8 TSV 690019
+newer TSV 690414 when acquiring ITEM 14849 in TX 6 TSV 690381
+CONFLICT rolling back 9 items in TX 6 TSV 690381
+newer TSV 691585 when acquiring ITEM 37704 in TX 6 TSV 691564
+CONFLICT rolling back 15 items in TX 6 TSV 691564
+newer TSV 694076 when acquiring ITEM 85034 in TX 4 TSV 694065
+CONFLICT rolling back 8 items in TX 4 TSV 694065
+newer TSV 694224 when acquiring ITEM 37211 in TX 8 TSV 694223
+CONFLICT rolling back 7 items in TX 8 TSV 694223
+newer TSV 697610 when acquiring ITEM 80776 in TX 1 TSV 697608
+CONFLICT rolling back 12 items in TX 1 TSV 697608
+newer TSV 699910 when acquiring ITEM 42471 in TX 6 TSV 699897
+CONFLICT rolling back 7 items in TX 6 TSV 699897
+newer TSV 703622 when acquiring ITEM 91701 in TX 4 TSV 702651
+CONFLICT rolling back 0 items in TX 4 TSV 702651
+newer TSV 703705 when acquiring ITEM 23026 in TX 1 TSV 703046
+CONFLICT rolling back 14 items in TX 1 TSV 703046
+newer TSV 703737 when acquiring ITEM 725 in TX 3 TSV 703626
+CONFLICT rolling back 1 items in TX 3 TSV 703626
+newer TSV 703705 when acquiring ITEM 23026 in TX 10 TSV 703304
+CONFLICT rolling back 10 items in TX 10 TSV 703304
+newer TSV 705626 when acquiring ITEM 16833 in TX 10 TSV 705366
+CONFLICT rolling back 7 items in TX 10 TSV 705366
+newer TSV 706594 when acquiring ITEM 75365 in TX 10 TSV 706593
+CONFLICT rolling back 7 items in TX 10 TSV 706593
+newer TSV 707662 when acquiring ITEM 84083 in TX 8 TSV 707660
+CONFLICT rolling back 6 items in TX 8 TSV 707660
+newer TSV 708441 when acquiring ITEM 1598 in TX 4 TSV 708439
+CONFLICT rolling back 13 items in TX 4 TSV 708439
+newer TSV 717532 when acquiring ITEM 12025 in TX 7 TSV 717502
+CONFLICT rolling back 13 items in TX 7 TSV 717502
+newer TSV 718249 when acquiring ITEM 96311 in TX 5 TSV 718219
+CONFLICT rolling back 2 items in TX 5 TSV 718219
+newer TSV 721326 when acquiring ITEM 27519 in TX 4 TSV 721292
+CONFLICT rolling back 13 items in TX 4 TSV 721292
+newer TSV 724190 when acquiring ITEM 29681 in TX 4 TSV 724170
+CONFLICT rolling back 18 items in TX 4 TSV 724170
+newer TSV 728242 when acquiring ITEM 8693 in TX 1 TSV 728227
+CONFLICT rolling back 6 items in TX 1 TSV 728227
+newer TSV 734006 when acquiring ITEM 82156 in TX 7 TSV 733989
+CONFLICT rolling back 5 items in TX 7 TSV 733989
+newer TSV 734941 when acquiring ITEM 78634 in TX 1 TSV 734876
+CONFLICT rolling back 18 items in TX 1 TSV 734876
+newer TSV 736031 when acquiring ITEM 34851 in TX 9 TSV 736021
+CONFLICT rolling back 5 items in TX 9 TSV 736021
+newer TSV 739953 when acquiring ITEM 85836 in TX 6 TSV 739951
+CONFLICT rolling back 9 items in TX 6 TSV 739951
+newer TSV 746507 when acquiring ITEM 36790 in TX 5 TSV 746502
+CONFLICT rolling back 11 items in TX 5 TSV 746502
+newer TSV 751987 when acquiring ITEM 79752 in TX 7 TSV 751986
+CONFLICT rolling back 18 items in TX 7 TSV 751986
+newer TSV 754054 when acquiring ITEM 39000 in TX 2 TSV 754029
+CONFLICT rolling back 14 items in TX 2 TSV 754029
+newer TSV 755640 when acquiring ITEM 8053 in TX 8 TSV 755612
+CONFLICT rolling back 4 items in TX 8 TSV 755612
+newer TSV 757707 when acquiring ITEM 82102 in TX 1 TSV 757702
+CONFLICT rolling back 12 items in TX 1 TSV 757702
+newer TSV 760004 when acquiring ITEM 59829 in TX 4 TSV 760003
+CONFLICT rolling back 11 items in TX 4 TSV 760003
+newer TSV 761485 when acquiring ITEM 39057 in TX 1 TSV 761484
+CONFLICT rolling back 13 items in TX 1 TSV 761484
+newer TSV 762852 when acquiring ITEM 57876 in TX 1 TSV 762827
+CONFLICT rolling back 10 items in TX 1 TSV 762827
+newer TSV 768367 when acquiring ITEM 65 in TX 10 TSV 768354
+CONFLICT rolling back 13 items in TX 10 TSV 768354
+newer TSV 785544 when acquiring ITEM 54017 in TX 1 TSV 785528
+CONFLICT rolling back 13 items in TX 1 TSV 785528
+newer TSV 788352 when acquiring ITEM 5889 in TX 2 TSV 788351
+CONFLICT rolling back 8 items in TX 2 TSV 788351
+newer TSV 790113 when acquiring ITEM 68936 in TX 1 TSV 790111
+CONFLICT rolling back 6 items in TX 1 TSV 790111
+newer TSV 794132 when acquiring ITEM 14955 in TX 2 TSV 794101
+CONFLICT rolling back 12 items in TX 2 TSV 794101
+newer TSV 816342 when acquiring ITEM 80352 in TX 2 TSV 816337
+CONFLICT rolling back 14 items in TX 2 TSV 816337
+newer TSV 816729 when acquiring ITEM 73074 in TX 7 TSV 816716
+CONFLICT rolling back 6 items in TX 7 TSV 816716
+newer TSV 828494 when acquiring ITEM 93129 in TX 5 TSV 828488
+CONFLICT rolling back 2 items in TX 5 TSV 828488
+newer TSV 829105 when acquiring ITEM 5708 in TX 1 TSV 829079
+CONFLICT rolling back 16 items in TX 1 TSV 829079
+newer TSV 829520 when acquiring ITEM 89504 in TX 8 TSV 829508
+CONFLICT rolling back 13 items in TX 8 TSV 829508
+newer TSV 829749 when acquiring ITEM 23037 in TX 7 TSV 829744
+CONFLICT rolling back 19 items in TX 7 TSV 829744
+newer TSV 835545 when acquiring ITEM 46944 in TX 2 TSV 835540
+CONFLICT rolling back 12 items in TX 2 TSV 835540
+newer TSV 836091 when acquiring ITEM 75133 in TX 4 TSV 836089
+CONFLICT rolling back 12 items in TX 4 TSV 836089
+newer TSV 841768 when acquiring ITEM 42932 in TX 8 TSV 841767
+CONFLICT rolling back 13 items in TX 8 TSV 841767
+newer TSV 843177 when acquiring ITEM 8027 in TX 4 TSV 843151
+CONFLICT rolling back 4 items in TX 4 TSV 843151
+newer TSV 848501 when acquiring ITEM 43909 in TX 1 TSV 848481
+CONFLICT rolling back 15 items in TX 1 TSV 848481
+newer TSV 851151 when acquiring ITEM 77934 in TX 5 TSV 851145
+CONFLICT rolling back 14 items in TX 5 TSV 851145
+newer TSV 853156 when acquiring ITEM 40516 in TX 7 TSV 853155
+CONFLICT rolling back 8 items in TX 7 TSV 853155
+newer TSV 853714 when acquiring ITEM 86549 in TX 1 TSV 853706
+CONFLICT rolling back 10 items in TX 1 TSV 853706
+newer TSV 855822 when acquiring ITEM 42793 in TX 8 TSV 855821
+CONFLICT rolling back 14 items in TX 8 TSV 855821
+newer TSV 856020 when acquiring ITEM 76932 in TX 7 TSV 856009
+CONFLICT rolling back 3 items in TX 7 TSV 856009
+newer TSV 858055 when acquiring ITEM 99138 in TX 3 TSV 858015
+CONFLICT rolling back 13 items in TX 3 TSV 858015
+newer TSV 858758 when acquiring ITEM 2426 in TX 2 TSV 858757
+CONFLICT rolling back 8 items in TX 2 TSV 858757
+newer TSV 860893 when acquiring ITEM 19519 in TX 4 TSV 860870
+CONFLICT rolling back 16 items in TX 4 TSV 860870
+newer TSV 864352 when acquiring ITEM 94063 in TX 6 TSV 864351
+CONFLICT rolling back 6 items in TX 6 TSV 864351
+newer TSV 871660 when acquiring ITEM 35196 in TX 3 TSV 871623
+CONFLICT rolling back 4 items in TX 3 TSV 871623
+newer TSV 875756 when acquiring ITEM 29114 in TX 2 TSV 875755
+CONFLICT rolling back 17 items in TX 2 TSV 875755
+newer TSV 876244 when acquiring ITEM 31002 in TX 1 TSV 876243
+CONFLICT rolling back 12 items in TX 1 TSV 876243
+TX 2 took 784 msec
+newer TSV 880204 when acquiring ITEM 64941 in TX 9 TSV 880189
+CONFLICT rolling back 11 items in TX 9 TSV 880189
+TX 3 took 789 msec
+newer TSV 885263 when acquiring ITEM 76596 in TX 5 TSV 885260
+CONFLICT rolling back 18 items in TX 5 TSV 885260
+TX 1 took 794 msec
+newer TSV 888825 when acquiring ITEM 43376 in TX 5 TSV 888824
+CONFLICT rolling back 11 items in TX 5 TSV 888824
+newer TSV 889759 when acquiring ITEM 43770 in TX 4 TSV 889748
+CONFLICT rolling back 2 items in TX 4 TSV 889748
+newer TSV 899483 when acquiring ITEM 71006 in TX 10 TSV 899482
+CONFLICT rolling back 14 items in TX 10 TSV 899482
+TX 4 took 809 msec
+TX 6 took 814 msec
+newer TSV 923506 when acquiring ITEM 82648 in TX 5 TSV 923505
+CONFLICT rolling back 13 items in TX 5 TSV 923505
+TX 8 took 842 msec
+newer TSV 950502 when acquiring ITEM 77276 in TX 10 TSV 950501
+CONFLICT rolling back 12 items in TX 10 TSV 950501
+TX 5 took 958 msec
+TX 9 took 961 msec
+TX 7 took 968 msec
+TX 10 took 987 msec
+
+transactions required 989 msec
+clean-up required 0 msec

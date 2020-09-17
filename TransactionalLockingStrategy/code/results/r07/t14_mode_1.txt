@@ -1,0 +1,37 @@
+testing with
+  lockable items: 10000000
+  threads       : 14
+  transactions  : 100000
+  refs per tx   : 20
+
+record init required 178 msec
+
+newer TSV 8256 when acquiring ITEM 4122322 in TX 11 TSV 8255
+CONFLICT rolling back 12 items in TX 11 TSV 8255
+newer TSV 169613 when acquiring ITEM 8852714 in TX 6 TSV 169611
+CONFLICT rolling back 12 items in TX 6 TSV 169611
+newer TSV 268200 when acquiring ITEM 7004332 in TX 13 TSV 268199
+CONFLICT rolling back 11 items in TX 13 TSV 268199
+newer TSV 270918 when acquiring ITEM 7599221 in TX 2 TSV 270917
+CONFLICT rolling back 10 items in TX 2 TSV 270917
+newer TSV 1202029 when acquiring ITEM 4505813 in TX 9 TSV 1202027
+CONFLICT rolling back 16 items in TX 9 TSV 1202027
+newer TSV 1322473 when acquiring ITEM 8247912 in TX 8 TSV 1322472
+CONFLICT rolling back 11 items in TX 8 TSV 1322472
+TX 2 took 1052 msec
+TX 9 took 1056 msec
+TX 10 took 1061 msec
+TX 12 took 1061 msec
+TX 3 took 1080 msec
+TX 1 took 1084 msec
+TX 11 took 1085 msec
+TX 4 took 1086 msec
+TX 6 took 1090 msec
+TX 14 took 1092 msec
+TX 5 took 1092 msec
+TX 7 took 1093 msec
+TX 13 took 1097 msec
+TX 8 took 1098 msec
+
+transactions required 1101 msec
+clean-up required 0 msec
